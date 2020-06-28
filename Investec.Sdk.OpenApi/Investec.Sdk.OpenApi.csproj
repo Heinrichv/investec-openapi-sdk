@@ -9,6 +9,10 @@
     <Company>Swifthouse Web (Pty) Ltd</Company>
     <Authors>Heinrich Venter</Authors>
     <PackageProjectUrl>https://github.com/Heinrichv/investec-openapi-sdk</PackageProjectUrl>
+    <PackageLicenseExpression>(MIT)</PackageLicenseExpression>
+    <Description>.NET Core integration library used to easily integrate with the Investec OpenApi</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryType>.NET Standard Class Library</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
