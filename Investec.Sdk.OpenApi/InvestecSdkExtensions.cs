@@ -15,8 +15,8 @@ namespace Investec.Sdk.OpenApi
             services.AddSingleton(investecOpenApiConfiguration);
 
             services.AddScoped<IInvestecOpenApiService, InvestecOpenApiService>();
-
-            services.AddHttpClient<InvestecOpenApiHttpClient>(client => new InvestecOpenApiHttpClient() 
+            services.AddLogging();
+            services.AddScoped<InvestecOpenApiHttpClient>(client => new InvestecOpenApiHttpClient
             {
                 BaseAddress = new Uri(investecOpenApiConfiguration.Url)
             });

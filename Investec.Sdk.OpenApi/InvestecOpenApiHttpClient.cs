@@ -7,5 +7,9 @@ namespace Investec.Sdk.OpenApi
 {
     public class InvestecOpenApiHttpClient : HttpClient
     {
+        public InvestecOpenApiHttpClient()
+        {
+
+        }
     }
 }
